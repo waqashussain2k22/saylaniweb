@@ -1,0 +1,84 @@
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #0f9a0c;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+  .news-post img{margin-left: 300px;
+margin-top: 100px;}
+.col-2 a{text-decoration: none;
+    color: black;
+}
+.zoom {
+
+
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.block {position: absolute;
+
+  
+  
+  border-radius: 10px;
+  background-color: #66CC66;
+  padding: 14px 28px;
+  border: none;
+  
+  cursor: pointer;
+  text-align: center;
+  margin-left: -400px;
+  margin-top: 230px; 
+  height: 55px;
+  width: 380px;
+   color: white;
+    font-size:20px;
+    font-weight: bold;
+
+  
+ 
+
+}
+img.darker {
+  transition: all 0.2s ease-in-out;
+}
+
+img.darker:hover {
+  filter: brightness(120%);
+}
+.saylani{background-image: url(./60.png);}
+#social-icon li{display: flex;
+font-size: 40px;
+padding: 10px;
+list-style: none;}
+.fa fa-facebook-square{color: white;}
